@@ -1,0 +1,92 @@
+html {
+    display: contents;
+    margin: auto;
+}
+
+body {
+    display: contents;
+    background-color:blanchedalmond;
+    background-repeat: repeat;
+    padding: 10px;
+}
+
+nav *{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* #form{
+    text-align: center;
+    margin-left: 17cm;
+    margin-top: 15%;
+} */
+
+.registrationForm{
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.registrationForm h1{
+    color: white;
+}
+
+label{
+    color: rgb(236, 236, 236);
+    text-align: center;
+}
+
+.registrationForm input, .signIn input {
+    align-items: center;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 300px;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+}
+
+#Submit, #signIn{
+    display: flex;
+    box-sizing: content-box;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+div{
+    display: flex;
+    /* padding: 20px; */
+    justify-content: center;
+}
+
+a{
+    color: aquamarine;
+}
+
+div.signIn{
+    width: 500px;
+}
+
+.signIn{
+    padding: 20px;
+    background-color: blueviolet;
+    /* padding-top: 20px; */
+    border-radius: 20px;
+}
+
+#form, #signin{
+    padding : 20px;
+}
+
+button{
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: rgb(212, 81, 249);
+    border-color: gray;
+}
